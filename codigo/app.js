@@ -43,8 +43,8 @@ function verificar(){
          grupos=["vacio", "Non", "Par", "Terna", "Cuarta", "Quinta", "Sexta", "Séptima", "Octava", "Novena", ];
          for (let i = 0; i < contadores.length; i++){
             if (contadores[i] >=2) {
-            mensaje += grupos[contadores[i]] + " de " + "\n";
-            mensaje += "Hay " + contadores[i] + " cartas de " + nombreCartas[i]+"\n";
+            mensaje += grupos[contadores[i]] + " de " + nombreCartas[i] + "\n";
+            
          }
 
          }
